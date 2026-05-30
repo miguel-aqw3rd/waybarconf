@@ -8,24 +8,22 @@
   "modules-right": ["network", "battery", "tray"],
 
   "hyprland/workspaces": {
-  "format": "{icon}",
-  "on-click": "activate",
-  "format-icons": {
-    "1": "",
-    "2": "",
-    "3": "",
-    "4": "",
-    "5": "",
-    "urgent": "",
-    "active": "",
-    "default": "",
-    "persistent": ""
-  },
-  "persistent-workspaces": {
-	"*": 6
-  }
-},
+    "format": "{icon}",
+    "on-click": "activate",
 
+    // Icon selection priority: "active" → "urgent" → workspace-id → "persistent" → "default"
+    "format-icons": {
+      "urgent":     "",
+      "active":     "",
+      "persistent": ""
+    },
+
+    // Pins exactly 6 workspace slots on every monitor ("*") so the bar never
+    // reflows when workspaces are created or destroyed.
+    "persistent-workspaces": {
+      "*": 6
+    }
+  },
 
   "clock": {
     "format": "{:%H:%M}",
