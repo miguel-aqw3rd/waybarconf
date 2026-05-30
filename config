@@ -21,7 +21,7 @@
     "default": "",
     "persistent": ""
   },
-  "persisten-workspaces": {
+  "persistent-workspaces": {
 	"*": 6
   }
 },
