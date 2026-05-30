@@ -5,7 +5,7 @@
 
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["network", "battery"] 
+  "modules-right": ["network", "battery"],
 
   "hyprland/workspaces": {
     "format": "{icon}",
