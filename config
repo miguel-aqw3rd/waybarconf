@@ -5,7 +5,7 @@
 
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["network", "battery", "tray"],
+  "modules-right": ["network", "battery"] 
 
   "hyprland/workspaces": {
     "format": "{icon}",
@@ -32,8 +32,8 @@
 
   "network": {
     "format-wifi": "  {signalStrength}%",
-    "format-ethernet": "  Connected",
-    "format-disconnected": "  Offline"
+    "format-ethernet": "",
+    "format-disconnected": ""
   },
 
   "battery": {
@@ -42,7 +42,4 @@
     "format-full": "  {capacity}%"
   },
 
-  "tray": {
-    "spacing": 10
-  }
 }
